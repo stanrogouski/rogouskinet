@@ -1,0 +1,937 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimal Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-05 05:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-4.9.9"
+
+#: 404.php:13
+msgid "404 not found. Maybe try a search?"
+msgstr ""
+
+#. 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:87
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: footer.php:99
+msgid "Scroll"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:48
+msgid "Social Nav"
+msgstr ""
+
+#: functions.php:141
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:71
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:77
+msgid "Menu"
+msgstr ""
+
+#: header.php:106
+msgid "Follow"
+msgstr ""
+
+#: single.php:31
+msgid "Next"
+msgstr ""
+
+#: single.php:32
+msgid "Next post:"
+msgstr ""
+
+#: single.php:34
+msgid "Previous"
+msgstr ""
+
+#: single.php:35
+msgid "Previous post:"
+msgstr ""
+
+#: inc/helpers.php:204
+msgid "No Image"
+msgstr ""
+
+#: inc/helpers.php:238
+msgid "Full Image"
+msgstr ""
+
+#: inc/load-posts.php:16
+msgid "Older Posts"
+msgstr ""
+
+#: inc/posts-meta-fields.php:22
+#, php-format
+msgid "%1s Settings"
+msgstr ""
+
+#: inc/posts-meta-fields.php:51
+msgid "Page Layout"
+msgstr ""
+
+#: inc/posts-meta-fields.php:54 inc/posts-meta-fields.php:70
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/posts-meta-fields.php:56 inc/customizer/options.php:600
+#: inc/customizer/options.php:979
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: inc/posts-meta-fields.php:59 inc/customizer/options.php:599
+#: inc/customizer/options.php:978
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#: inc/posts-meta-fields.php:62 inc/customizer/options.php:601
+#: inc/customizer/options.php:980
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/posts-meta-fields.php:67
+msgid "Featured Image on Detail Page"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:34
+#, php-format
+msgctxt "post date"
+msgid "Published on : %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:40 inc/template-tags.php:107
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:47 inc/template-tags.php:114
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:60 inc/template-tags.php:192
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: inc/template-tags.php:70 inc/template-tags.php:195 inc/template-tags.php:202
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:101
+#, php-format
+msgctxt "post date"
+msgid "Published on %s"
+msgstr ""
+
+#: inc/template-tags.php:146
+#, php-format
+msgid " %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:165 inc/hooks/banner-slider.php:76
+msgid " #"
+msgstr ""
+
+#: inc/template-tags.php:167 inc/hooks/banner-slider.php:78
+#, php-format
+msgid "#%1$s"
+msgstr ""
+
+#: inc/template-tags.php:178
+msgid " 0 "
+msgstr ""
+
+#: inc/template-tags.php:178
+msgid " 1 "
+msgstr ""
+
+#: inc/template-tags.php:178
+msgid " % "
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:199
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:211 template-parts/content-page.php:48
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-audio.php:62 template-parts/content-gallery.php:54
+#: template-parts/content-image.php:58 template-parts/content-page.php:34
+#: template-parts/content-quote.php:48 template-parts/content-quote.php:71
+#: template-parts/content-video.php:70 template-parts/content.php:54
+#: template-parts/content.php:86
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-quote.php:38
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: components/header/header-main.php:42
+#: components/header/header-secondary.php:39
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/customizer/defaults.php:39
+msgid "You May Have Missed"
+msgstr ""
+
+#: inc/customizer/defaults.php:89
+msgid "Related Articles"
+msgstr ""
+
+#: inc/customizer/defaults.php:100
+msgid "Copyright &copy; All rights reserved."
+msgstr ""
+
+#: inc/customizer/init.php:50
+msgid "Minimal Lite Pro"
+msgstr ""
+
+#: inc/customizer/init.php:51
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/customizer/options.php:21
+msgid "Enable Header Overlay"
+msgstr ""
+
+#: inc/customizer/options.php:38
+msgid "Site Title Text Size"
+msgstr ""
+
+#: inc/customizer/options.php:59
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/options.php:76
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer/options.php:88
+msgid "Homepage Sections"
+msgstr ""
+
+#: inc/customizer/options.php:89
+msgid "Contains all front page settings"
+msgstr ""
+
+#: inc/customizer/options.php:98
+msgid "Slider Options"
+msgstr ""
+
+#: inc/customizer/options.php:114
+msgid "Enable Banner Slider"
+msgstr ""
+
+#: inc/customizer/options.php:131
+msgid "Select Banner Slider Style"
+msgstr ""
+
+#: inc/customizer/options.php:135
+msgid "Default Slider"
+msgstr ""
+
+#: inc/customizer/options.php:136
+msgid "Slider Style 2"
+msgstr ""
+
+#: inc/customizer/options.php:153
+msgid "Choose Slider category"
+msgstr ""
+
+#: inc/customizer/options.php:171
+msgid "No of Slider Posts"
+msgstr ""
+
+#: inc/customizer/options.php:191
+msgid "Enable Category Info"
+msgstr ""
+
+#: inc/customizer/options.php:210
+msgid "Enable Slider Overlay"
+msgstr ""
+
+#: inc/customizer/options.php:229
+msgid "Loop slider after last slide"
+msgstr ""
+
+#: inc/customizer/options.php:243
+msgid "Featured Categories Options"
+msgstr ""
+
+#: inc/customizer/options.php:259
+msgid "Enable Featured Categories"
+msgstr ""
+
+#: inc/customizer/options.php:278
+msgid "Choose First Category"
+msgstr ""
+
+#: inc/customizer/options.php:298
+msgid "First Category Image"
+msgstr ""
+
+#: inc/customizer/options.php:299 inc/customizer/options.php:340
+#: inc/customizer/options.php:381 inc/customizer/options.php:422
+#, php-format
+msgid "Recommended Size %1$s px X %2$s px"
+msgstr ""
+
+#: inc/customizer/options.php:319
+msgid "Choose Second Category"
+msgstr ""
+
+#: inc/customizer/options.php:339
+msgid "Second Category Image"
+msgstr ""
+
+#: inc/customizer/options.php:360
+msgid "Choose Third Category"
+msgstr ""
+
+#: inc/customizer/options.php:380
+msgid "Third Category Image"
+msgstr ""
+
+#: inc/customizer/options.php:401
+msgid "Choose Fourth Category"
+msgstr ""
+
+#: inc/customizer/options.php:421
+msgid "Fourth Category Image"
+msgstr ""
+
+#: inc/customizer/options.php:435
+msgid "Footer Recommendation Options"
+msgstr ""
+
+#: inc/customizer/options.php:451
+msgid "Enable Recommended Post"
+msgstr ""
+
+#: inc/customizer/options.php:466 inc/customizer/options.php:1145
+msgid "Related Posts title"
+msgstr ""
+
+#: inc/customizer/options.php:486
+msgid "Choose Recommended Post"
+msgstr ""
+
+#: inc/customizer/options.php:504
+msgid "No of Posts"
+msgstr ""
+
+#: inc/customizer/options.php:523
+msgid "Enable Meta Info"
+msgstr ""
+
+#: inc/customizer/options.php:543
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/options.php:564
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/options.php:579
+msgid "Front Page Layout Options"
+msgstr ""
+
+#: inc/customizer/options.php:595
+msgid "Front Page Layout"
+msgstr ""
+
+#: inc/customizer/options.php:612
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/options.php:613
+msgid "Contains all theme settings"
+msgstr ""
+
+#: inc/customizer/options.php:622
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/customizer/options.php:638
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/customizer/options.php:650
+msgid "Header Layout Options"
+msgstr ""
+
+#: inc/customizer/options.php:666
+msgid "Select Header Layout"
+msgstr ""
+
+#: inc/customizer/options.php:670
+msgid "Default Header Layout"
+msgstr ""
+
+#: inc/customizer/options.php:671
+msgid "Secondary Header Layout"
+msgstr ""
+
+#: inc/customizer/options.php:687
+msgid "Enable Social Menu on Header"
+msgstr ""
+
+#: inc/customizer/options.php:699
+msgid "Side Panel Options"
+msgstr ""
+
+#: inc/customizer/options.php:715
+msgid "Enable Side Panel"
+msgstr ""
+
+#: inc/customizer/options.php:733
+msgid "Enable Social Menu On Side Panel"
+msgstr ""
+
+#: inc/customizer/options.php:746
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/options.php:764
+msgid "Primary Font"
+msgstr ""
+
+#: inc/customizer/options.php:783
+msgid "Secondary Font"
+msgstr ""
+
+#: inc/customizer/options.php:802
+msgid "Text Size For Paragraph"
+msgstr ""
+
+#: inc/customizer/options.php:821
+msgid "Text Size For H1"
+msgstr ""
+
+#: inc/customizer/options.php:840
+msgid "Text Size For H2"
+msgstr ""
+
+#: inc/customizer/options.php:859
+msgid "Text Size For H3"
+msgstr ""
+
+#: inc/customizer/options.php:878
+msgid "Text Size For H4"
+msgstr ""
+
+#: inc/customizer/options.php:897
+msgid "Text Size For H5"
+msgstr ""
+
+#: inc/customizer/options.php:910
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/options.php:928
+msgid "Masonry Animation"
+msgstr ""
+
+#: inc/customizer/options.php:932
+msgid "None"
+msgstr ""
+
+#: inc/customizer/options.php:933
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/options.php:934
+msgid "Slide Up"
+msgstr ""
+
+#: inc/customizer/options.php:935
+msgid "Slide Down"
+msgstr ""
+
+#: inc/customizer/options.php:936
+msgid "Zoom Out"
+msgstr ""
+
+#: inc/customizer/options.php:953
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/options.php:957
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/customizer/options.php:958
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/options.php:974
+msgid "Global Layout"
+msgstr ""
+
+#: inc/customizer/options.php:996
+msgid "Image in Archive Page"
+msgstr ""
+
+#: inc/customizer/options.php:1014
+msgid "Image in Single Posts"
+msgstr ""
+
+#: inc/customizer/options.php:1032
+msgid "Image in Single Page"
+msgstr ""
+
+#: inc/customizer/options.php:1045
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer/options.php:1061
+msgid "Pagination Type"
+msgstr ""
+
+#: inc/customizer/options.php:1065
+msgid "Default (Older / Newer Post)"
+msgstr ""
+
+#: inc/customizer/options.php:1066
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer/options.php:1067
+msgid "Button Click Ajax Load"
+msgstr ""
+
+#: inc/customizer/options.php:1068
+msgid "Infinite Scroll Ajax Load"
+msgstr ""
+
+#: inc/customizer/options.php:1078
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/customizer/options.php:1094
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: inc/customizer/options.php:1095
+#, php-format
+msgid "Advanced: Requires %1$sBreadcrumb NavXT%2$s plugin"
+msgstr ""
+
+#: inc/customizer/options.php:1099
+msgid "Disabled"
+msgstr ""
+
+#: inc/customizer/options.php:1100
+msgid "Simple"
+msgstr ""
+
+#: inc/customizer/options.php:1101
+msgid "Advanced"
+msgstr ""
+
+#: inc/customizer/options.php:1111
+msgid "Single Post Options"
+msgstr ""
+
+#: inc/customizer/options.php:1127
+msgid "Show related Posts"
+msgstr ""
+
+#: inc/customizer/options.php:1158
+msgid "Archive Options"
+msgstr ""
+
+#: inc/customizer/options.php:1174
+msgid "Show Description on Archive Pages"
+msgstr ""
+
+#: inc/customizer/options.php:1192
+msgid "Show Meta Info on Archive Pages"
+msgstr ""
+
+#: inc/customizer/options.php:1203
+msgid "Excerpt Options"
+msgstr ""
+
+#: inc/customizer/options.php:1219
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/options.php:1238
+msgid "Excerpt Font Size"
+msgstr ""
+
+#: inc/customizer/options.php:1252
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/options.php:1268
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/options.php:1286
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer/options.php:1304
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/hooks/featured-categories.php:36
+msgid "Learn more"
+msgstr ""
+
+#: inc/hooks/home-grids.php:69 inc/widgets/tab-posts.php:203
+msgid "/"
+msgstr ""
+
+#: inc/hooks/inner-header.php:86
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/hooks/inner-header.php:91
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/widgets/author-info.php:14
+msgid "ML: Author Info"
+msgstr ""
+
+#: inc/widgets/author-info.php:15
+msgid "Displays author short info."
+msgstr ""
+
+#: inc/widgets/author-info.php:95 inc/widgets/social-menu.php:70
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/author-info.php:103
+msgid "Author Name:"
+msgstr ""
+
+#: inc/widgets/author-info.php:111
+msgid "Author Background Image:"
+msgstr ""
+
+#: inc/widgets/author-info.php:114 inc/widgets/author-info.php:145
+msgid "Upload"
+msgstr ""
+
+#: inc/widgets/author-info.php:114 inc/widgets/author-info.php:145
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/author-info.php:114 inc/widgets/author-info.php:145
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widgets/author-info.php:125 inc/widgets/author-info.php:156
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: inc/widgets/author-info.php:135
+msgid "Short Description:"
+msgstr ""
+
+#: inc/widgets/author-info.php:142
+msgid "Author Image:"
+msgstr ""
+
+#: inc/widgets/author-info.php:166
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/widgets/author-info.php:174
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/widgets/author-info.php:182
+msgid "Instagram URL:"
+msgstr ""
+
+#: inc/widgets/social-menu.php:14
+msgid "ML: Social Menu"
+msgstr ""
+
+#: inc/widgets/social-menu.php:15
+msgid "Displays social menu if you have set it(social menu)"
+msgstr ""
+
+#: inc/widgets/social-menu.php:48
+msgid ""
+"Social menu is not set. You need to create menu and assign it to Social Menu "
+"on Menu Settings."
+msgstr ""
+
+#: inc/widgets/tab-posts.php:14
+msgid "ML: Tab Posts"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:15
+msgid "Displays posts in tabs"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:34 inc/widgets/tab-posts.php:42
+#: inc/widgets/tab-posts.php:92
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:46 inc/widgets/tab-posts.php:54
+#: inc/widgets/tab-posts.php:107
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:96 inc/widgets/tab-posts.php:111
+msgid "No of Posts:"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:102 inc/widgets/tab-posts.php:117
+msgid "Content Length (Words):"
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:12
+msgid "Displays items on sidebar."
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:20
+msgid "Offcanvas Sidebar"
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:22
+msgid "Displays items on Offcanvas Sidebar."
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:30
+msgid "Footer Column One"
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:32
+msgid "Displays items on footer first column."
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:39
+msgid "Footer Column Two"
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:41
+msgid "Displays items on footer second column."
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:48
+msgid "Footer Column Three"
+msgstr ""
+
+#: inc/widgets/widget-sidebars.php:50
+msgid "Displays items on footer third column."
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:315
+msgid "Browse:"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:316
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:317
+msgid "Home"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:318
+msgid "404 Not Found"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:319
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query.
+#: assets/lib/breadcrumbs/breadcrumbs.php:321
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#. %s is the page number.
+#: assets/lib/breadcrumbs/breadcrumbs.php:323
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. %s is the page number.
+#: assets/lib/breadcrumbs/breadcrumbs.php:325
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: assets/lib/breadcrumbs/breadcrumbs.php:327
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: assets/lib/breadcrumbs/breadcrumbs.php:329
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:789
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:806
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:823
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:839
+#: assets/lib/breadcrumbs/breadcrumbs.php:868
+#: assets/lib/breadcrumbs/breadcrumbs.php:895
+#: assets/lib/breadcrumbs/breadcrumbs.php:922
+#: assets/lib/breadcrumbs/breadcrumbs.php:1262
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:840
+#: assets/lib/breadcrumbs/breadcrumbs.php:896
+#: assets/lib/breadcrumbs/breadcrumbs.php:1266
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:841
+#: assets/lib/breadcrumbs/breadcrumbs.php:1270
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:869
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#. Name of the theme
+msgid "Minimal Lite"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Meet Minimal Lite, a fresh-faced masonry layout Blog WordPress theme. "
+"Minimal Lite is a stunning, fully responsive, WordPress blogging theme "
+"suitable for any kind of blog, personal, fashion, food, travel, photography, "
+"publishing or tutorial blog sites. Simply upload, import the demo data, and "
+"swap out the text and images as you wish! Let Minimal Lite's clean vibe and "
+"arresting design elements elevate your content to its fullest potential. The "
+"day and night mode switch in a single click creates a more user-friendly "
+"environment. See here for more demos https://thememattic.com/minimal-lite-"
+"demos/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://thememattic.com/theme/minimal-lite"
+msgstr ""
+
+#. Author of the theme
+msgid "Thememattic"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://thememattic.com"
+msgstr ""
